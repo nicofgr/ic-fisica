@@ -1,36 +1,130 @@
-* {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     /*outline: 2px solid red;*/
+    color: rgb(43, 43, 49);
 }
 body{
-  background-color: rgb(19, 19, 19);
+  background-color: white;
 }
-h1, h2, p, li {
-    font-family: 'Helvetica';
+h1, h2, li {
+    font-family: 'Text Me One';
     color: white;
     text-align: center;
 }
 h1{
-    font-size: 47px;
-    font-family: 'Text Me One';
+    font-size: 45px;   
 }
 h2{
-    font-size: 29px;
-    font-family: 'Text Me One';
+    color: rgb(43, 43, 49);
+    font-size: 28px;
 }
 p{
-    font-size: 18px;
+    font-family: 'Helvetica';
+    font-size: 16px;
     text-align: left;
-    width: 50%;
     margin: auto;
+    width: 90%
+}
+video{
+    display: block;
+    margin: 0 auto;
 }
 
-.header{
-    margin: -10px;
-    padding: 10px;
-    text-align: center;
+
+.navbar-container{
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+}
+.navbar{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.navbar .button{
+    user-select: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-family: 'Text Me One';
+    -webkit-text-stroke: 1px;
+    padding: 4px 20px;
+    text-decoration: none;
+
+    &:hover{
+        background-color: rgb(44, 44, 44);
+        text-shadow: 2px 2px 1px cyan,
+                    -2px -2px 1px red;
+    }
+    &:active{
+        color: black;
+        background-color: rgb(207, 207, 207);
+    }
+}
+
+.header-container{
+    display: flex;
     background-image: url("../images/deep-space.webp");
-    background-size:cover;
-    text-shadow: 0px 0px 2px white,
+    /**border:2px solid red;**/
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.header{
+    height: 200px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header .title {
+    text-shadow: 0px 0px 5px white,
                  2px 2px 1px black,
                 -2px -2px 1px black;
+    
 }
+.header h2{
+    color: white;
+    text-align: center;
+}
+
+.body-container{
+    display: flex;
+    justify-content: center;
+
+}
+.menu-container{
+    flex: initial;
+    width: 200px;
+    position: absolute;
+    right: 0;
+}
+@media (max-width: 768px){
+    .menu-container{
+        display: none;
+    }
+}
+
+.content-container{
+    flex: 1;
+    /**background-color: rgb(16, 16, 17);**/
+    max-width: 700px;
+}
+
+.content{
+    font-family: 'Helvetica';
+}
+
+.footer {
+    border:2px solid red;
+    width:750px;
+    height:30px;
+}
+  
