@@ -42,6 +42,7 @@ video{
     position: fixed;
     width: 100%;
     height: 30px;
+    z-index: 100;
 }
 .navbar{
     display: flex;
