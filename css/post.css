@@ -1,0 +1,36 @@
+* {
+    /*outline: 2px solid red;*/
+}
+body{
+  background-color: rgb(19, 19, 19);
+}
+h1, h2, p, li {
+    font-family: 'Helvetica';
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 47px;
+    font-family: 'Text Me One';
+}
+h2{
+    font-size: 29px;
+    font-family: 'Text Me One';
+}
+p{
+    font-size: 18px;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+.header{
+    margin: -10px;
+    padding: 10px;
+    text-align: center;
+    background-image: url("../images/deep-space.webp");
+    background-size:cover;
+    text-shadow: 0px 0px 2px white,
+                 2px 2px 1px black,
+                -2px -2px 1px black;
+}
