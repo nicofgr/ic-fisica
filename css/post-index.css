@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -33,32 +34,51 @@ video{
 }
 
 
+html, body {
+    height: 100%;
+}
 
-
-.header-container{
+.header{
+    height: 40%;
     display: flex;
-    background-image: url("../images/deep-space.webp");
-    /**border:2px solid red;**/
+    background-image:  url("../images/deep-space.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     justify-content: center;
+    align-items: center;
     margin-top: 25px;
     margin-bottom: 50px;
+    user-select: none;
+    flex-direction: column;
 }
-.header{
+.header img{
+    filter: drop-shadow(0px 0px 2px white);
+    justify-content: flex-end;
+    text-align: center;
+    width: 30%;
+    margin: 5px;
+}
+.header .text{
     height: 200px;
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-.header .title {
     text-shadow: 0px 0px 5px white,
                  2px 2px 1px black,
                 -2px -2px 1px black;
-    
 }
-.header h2{
+.header .text h1{
+    font-size: 50px;
+}
+.header .text h2{
+
     color: white;
+    justify-content: flex-end;
     text-align: center;
+    width: 100%;
 }
 
 .body-container{
@@ -69,10 +89,8 @@ video{
 .menu-container{
     flex: initial;
     width: 200px;
-    height: 100%;
     position: absolute;
     right: 0;
-    background-color: rgb(211, 211, 211);
 }
 @media (max-width: 768px){
     .menu-container{
@@ -90,9 +108,4 @@ video{
     font-family: 'Helvetica';
 }
 
-.footer {
-    border:2px solid red;
-    width:750px;
-    height:30px;
-}
   

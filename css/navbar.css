@@ -1,0 +1,33 @@
+.navbar-container{
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    z-index: 100;
+    align-items: center;
+}
+
+.navbar-container .button{
+    user-select: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-family: 'Text Me One';
+    -webkit-text-stroke: 1px;
+    padding: 4px 20px;
+    text-decoration: none;
+
+    &:hover{
+        background-color: rgb(44, 44, 44);
+        text-shadow: 2px 2px 1px cyan,
+                    -2px -2px 1px red;
+    }
+    &:active{
+        color: black;
+        background-color: rgb(207, 207, 207);
+    }
+}
