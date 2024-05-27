@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="102.67625mm"
+   height="64.099792mm"
+   viewBox="0 0 102.67625 64.099792"
+   version="1.1"
+   id="svg5"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow1"
+       markerWidth="3.0610001"
+       markerHeight="5.0559397"
+       viewBox="0 0 4.0606602 6.7071068"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         id="path5057"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect832"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow1"
+       markerWidth="3.0610001"
+       markerHeight="5.0559397"
+       viewBox="0 0 4.0606602 6.7071068"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         id="path5057-3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect832-5"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-50.376054,-101.60251)">
+    <circle
+       style="fill:#000000;stroke:none;stroke-width:1"
+       id="path286"
+       cx="93.749207"
+       cy="135.56313"
+       r="3.5426302"
+       inkscape:export-filename="milliknapart.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:1"
+       id="rect496"
+       width="62.520081"
+       height="2.0493155"
+       x="62.489166"
+       y="103.75101"
+       ry="1.0246577" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:1"
+       id="rect496-3"
+       width="62.520081"
+       height="2.0493155"
+       x="62.489166"
+       y="163.65298"
+       ry="1.0246577" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.7px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1"
+       x="53.373257"
+       y="109.15901"
+       id="text687"><tspan
+         sodipodi:role="line"
+         id="tspan685"
+         style="stroke-width:1"
+         x="53.373257"
+         y="109.15901">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.7px;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1"
+       x="53.360558"
+       y="168.48376"
+       id="text687-6"><tspan
+         sodipodi:role="line"
+         id="tspan685-7"
+         style="stroke-width:1"
+         x="53.360558"
+         y="168.48376">-</tspan></text>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1;marker-end:url(#Arrow1)"
+       d="m 93.749207,135.83411 c 0,-5.37853 0,-10.75734 0,-16.13641"
+       id="path830"
+       inkscape:path-effect="#path-effect832"
+       inkscape:original-d="m 93.749207,135.83411 c 2.64e-4,-5.37853 2.64e-4,-10.75734 0,-16.13641" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1;marker-end:url(#Arrow1-5)"
+       d="m 93.749207,134.37528 c 0,5.37853 0,10.75734 0,16.13641"
+       id="path830-6"
+       inkscape:path-effect="#path-effect832-5"
+       inkscape:original-d="m 93.749207,134.37528 c 2.6e-4,5.37853 2.6e-4,10.75734 0,16.13641" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.1;text-align:center;text-anchor:middle;fill:#000000;stroke:#ff0000;stroke-width:1"
+       x="120.54877"
+       y="117.4612"
+       id="text1785"
+       inkscape:export-filename="millikanpart.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1783"
+         style="font-size:8.46667px;stroke:none;stroke-width:1"
+         x="120.54877"
+         y="117.4612">FORÇA </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:8.46667px;stroke:none;stroke-width:1"
+         x="120.54877"
+         y="126.77454"
+         id="tspan2050">ELÉTRICA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.1;text-align:center;text-anchor:middle;fill:#000000;stroke:#ff0000;stroke-width:1"
+       x="120.80277"
+       y="150.47997"
+       id="text1785-2"><tspan
+         sodipodi:role="line"
+         style="font-size:8.46667px;stroke:none;stroke-width:1"
+         x="120.80277"
+         y="150.47997"
+         id="tspan2048">FORÇA</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:8.46667px;stroke:none;stroke-width:1"
+         x="120.80277"
+         y="159.7933"
+         id="tspan2054">GRAVITACIONAL</tspan></text>
+  </g>
+</svg>
