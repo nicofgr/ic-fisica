@@ -2,21 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../css/post.css">
+    <base href="/ic-fisica/">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/post.css">
     <link href="https://fonts.cdnfonts.com/css/text-me-one" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+        
+    <script type="text/javascript"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <title>IC Fisica </title>
   </head>
 
   <body>
     
     <div class ="page">
-      <div class="navbar-container">
-        <div class="navbar">
-          <a class="button" href="../../index.html">HOME</a>
-          <a class="button" href="../posts-index.html">POSTS</a>
-          <a class="button" href="../ic-estrelas-compactas.html">IC</a>
-        </div>
-      </div>
+      <div id="nav-placeholder"></div>
+      <script>
+        $(function(){
+          $("#nav-placeholder").load("/pages/nav.html");
+        });
+      </script>
+
       <div class ="header-container">
         <div class="header">
           <div class="title">
@@ -31,9 +49,7 @@
           <div class="content">
             <h2>RAIOS CATÓDICOS</h2>
             <br>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate vulputate nulla. Vivamus vitae diam eget libero iaculis egestas. Quisque egestas feugiat nisl, egestas eleifend purus convallis id. Nulla lobortis congue gravida. Aliquam placerat, orci eget lacinia aliquet, nulla nisl accumsan erat, ut efficitur felis eros nec ipsum. Vivamus facilisis ipsum et orci tristique laoreet. Nullam ornare tellus ac semper. 
-            </p>
+            
             <br>
             <hr>
             <br>
@@ -42,31 +58,49 @@
             <h2>EXPERIMENTO DE J. PERRIN</h2>
             <br>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate vulputate nulla. Vivamus vitae diam eget libero iaculis egestas. Quisque egestas feugiat nisl, egestas eleifend purus convallis id. Nulla lobortis congue gravida. Aliquam placerat, orci eget lacinia aliquet, nulla nisl accumsan erat, ut efficitur felis eros nec ipsum. Vivamus facilisis ipsum et orci tristique laoreet. Nullam ornare tellus ac semper. 
+              Em 1895, J. Perrin [1] havia recolhido raios catódicos em um eletrômetro e observado que eram compostos por partículas de carga elétrica negativa.
             </p>
             <br>
             <hr>
             <br>
             <br>
-    
             <h2>EXPERIMENTO DE THOMSON</h2>
             <br>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate vulputate nulla. Vivamus vitae diam eget libero iaculis egestas. Quisque egestas feugiat nisl, egestas eleifend purus convallis id. Nulla lobortis congue gravida. Aliquam placerat, orci eget lacinia aliquet, nulla nisl accumsan erat, ut efficitur felis eros nec ipsum. Vivamus facilisis ipsum et orci tristique laoreet. Nullam ornare tellus ac semper. 
+              Em 1897, J. J. Thomson mediu o valor de $q/m$ para os chamados raios catódicos[2] e observou que, se a carga das partículas contidas nesses raios fosse igual à carga mínima estimada por Stoney a partir da lei de Faraday, a massa das partículas seria apenas uma pequena fração da massa do átomo de hidrogênio. Assim, ao medir o valor de  das partículas responsáveis pelos raios catódicos, Thomson havia, na verdade, descoberto o elétron.
             </p>
+            <br>
+            <p>
+              Quando um campo magnético uniforme de intensidade $B$ é aplicado perpendicularmente à direção de movimento de partículas carregadas, as partículas passam a se mover em uma trajetória circular. O raio R da trajetória pode ser calculado a partir da segunda lei de Newton, fazendo a força magnética $quB$ igual à massa $m$ multiplicada pela aceleração centrípeta $u^2/R$, em que $u$ é a velocidade das partículas:
+              $$quB = \frac{mu^2}{R} \ \rightarrow \ R = \frac{mu}{qB} \ \rightarrow \ \frac{q}{m} = \frac{u}{RB}$$
+            </p>
+            <p>
+              Thomson executou dois experimentos para medir o valor de e/m usando métodos um pouco diferentes. O segundo, mais confiável, ficou conhecido como experimento de J. J. Thomson. Nesse experimento, o cientista ajustou os valores de um campo magnético $B$ e um campo elétrico $\mathscr{E}$, mutuamente perpendiculares, para que os raios não sofressem uma deflexão. Isso permitiu a Thomson determinar a velocidade dos elétrons igualando a força magnética à força elétrica e usando a equação anterior para calcular  $e/m \ \ (≡ q/m)$:
+              $$quB = q\mathscr{E} \ \text{ ou } \ u = \frac{\mathscr{E}}{B}$$
+            </p>  
+            <p>
+              O experimento de Thomson conseguiu medir $e/m$ obtendo o valor de $0.7 × 10^{11} \text{C/kg}$.
+            </p> 
             <video width="400" height="400" controls>
-              <source src="https://private-user-images.githubusercontent.com/107516938/333892393-dcfd82bb-54d0-4ba4-bc64-23f285ece0bd.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY3Mzg4MTIsIm5iZiI6MTcxNjczODUxMiwicGF0aCI6Ii8xMDc1MTY5MzgvMzMzODkyMzkzLWRjZmQ4MmJiLTU0ZDAtNGJhNC1iYzY0LTIzZjI4NWVjZTBiZC5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyNlQxNTQ4MzJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NDI1YWZiMmEyMmVkMmYxMDdmNmYwMDhkNTU3ZWQ3NjA0ODVhNzczNzMxY2YxMjlkODU3MzE1NzM4NjQ4YzFhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.kF84rJUPFoi4LzSPBk-AnH4v-FJYpq-ZdcSWQItCTko" type="video/mp4">
+              <source src="https://private-user-images.githubusercontent.com/107516938/333892393-dcfd82bb-54d0-4ba4-bc64-23f285ece0bd.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY3Njk4MzEsIm5iZiI6MTcxNjc2OTUzMSwicGF0aCI6Ii8xMDc1MTY5MzgvMzMzODkyMzkzLWRjZmQ4MmJiLTU0ZDAtNGJhNC1iYzY0LTIzZjI4NWVjZTBiZC5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyN1QwMDI1MzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMTk3ODZkOWM3NGQ2ZDA0ZGFiNmVmMjdlNTA1YTZjNTYyN2RjOTRhYmJjYmE5YWYxNjE0NGFlYjE0N2UxYzRkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.iftUDOz8Vl_CnvSAXXMfcfIlURNWhGaPoh8qMT2GiN4" type="video/mp4">
             Your browser does not support the video tag.
             </video> 
+            <p>
+              Quando Thomson repetiu o experimento usando gases diferentes no interior do tubo e catodos feitos de diferentes metais, obteve o mesmo valor para $e/m$ (dentro do erro experimental esperado), o que o levou a concluir que as mesmas partículas estavam presentes em todas as substâncias. A concordância dos resultados com os obtidos por Zeeman o levou à conclusão de que essas partículas tinham uma unidade de carga negativa, uma massa aproximadamente 2 000 vezes menor que a do átomo mais leve e eram parte integrante de todos os átomos.
+            </p>
             <br>
             <hr>
             <br>
+            <br>
+            <h2>FONTES</h2>
+            <br>
+            <br>
+            <hr>
             <br>
           </div>
       </div>
       <div class="menu-container">
         <div class="menu">
-          Menu
         </div>
       </div>
     </div>
