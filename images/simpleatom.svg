@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="74.746483mm"
+   height="85.138977mm"
+   viewBox="0 0 74.746483 85.138977"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="simpleatom.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#949494"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3732434"
+     inkscape:cx="365.55791"
+     inkscape:cy="531.5882"
+     inkscape:window-width="1366"
+     inkscape:window-height="711"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-61.321878,-103.8891)">
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       id="path165"
+       cx="98.695114"
+       cy="146.45859"
+       r="7.7470903" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.102968"
+       id="path165-7"
+       cx="105.79941"
+       cy="179.05128"
+       r="3.014955" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.102968"
+       id="path165-7-5"
+       cx="67.532249"
+       cy="136.39143"
+       r="3.014955" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.102968"
+       id="path165-7-3"
+       cx="119.2495"
+       cy="125.21194"
+       r="3.014955" />
+    <ellipse
+       style="fill:none;stroke:#fefefe;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="path169"
+       cx="12.243179"
+       cy="176.18442"
+       rx="42.069492"
+       ry="11.267572"
+       transform="rotate(-30)" />
+    <ellipse
+       style="fill:none;stroke:#fefefe;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="path169-3"
+       cx="-158.70178"
+       cy="-77.489288"
+       rx="42.069492"
+       ry="11.267571"
+       transform="rotate(-150)" />
+    <ellipse
+       style="fill:none;stroke:#fefefe;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="path169-3-6"
+       cx="-146.45859"
+       cy="98.695114"
+       rx="42.069492"
+       ry="11.267572"
+       transform="rotate(-90)"
+       inkscape:export-filename="simpleatom.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
