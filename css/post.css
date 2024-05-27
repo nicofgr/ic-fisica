@@ -19,15 +19,23 @@ h1{
 h2{
     color: rgb(43, 43, 49);
     font-size: 28px;
+    text-align: left;
+    margin-left: 35px;
 }
 p{
     font-family: 'Helvetica';
+    font-family: 'Text Me One';
     font-size: 16px;
+    font-size: 20px;
     text-align: left;
     margin: auto;
     width: 90%
 }
 video{
+    display: block;
+    margin: 0 auto;
+}
+img{
     display: block;
     margin: 0 auto;
 }
