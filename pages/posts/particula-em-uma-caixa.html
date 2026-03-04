@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/post.css">
+    <link href="https://fonts.cdnfonts.com/css/text-me-one" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <script defer src="../../mathjax-config.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js"></script>
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <script src="https://www.desmos.com/api/v1.11/calculator.js?apiKey=42a0918e7df3405f9bb7b535deea3bd4"></script>
+
+    <title>IC Fisica </title>
+  </head>
+
+  <body>
+    
+    <div class ="page">
+      <div id="nav-placeholder"></div>
+      <script>
+        $(function(){
+          $("#nav-placeholder").load("../../pages/nav.html");
+        });
+      </script>
+
+      <div class ="header-container">
+        <div class="header">
+          <div class="title">
+            <h1>PARTÍCULA EM UMA CAIXA</h1>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="body-container">
+        <div class="content-container">
+          <div class="content">
+            <a href=""><p>Veja o post no Instagram!</p></a>
+            <br><br>
+            <h2>EQUAÇÃO DE ONDA QUÂNTICA</h2>
+            <br>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum vestibulum nunc sit amet sagittis. Proin ante nulla, dignissim vel malesuada in, lacinia in metus. 
+              $$-\frac{\hbar^2}{2m} \frac{d^2\psi(x)}{dx^2} + V(x)\psi(x)=E\psi(x)$$
+              <br>
+              Maecenas varius fringilla lobortis. Aliquam facilisis nulla sed nulla fermentum porttitor. Proin placerat ut felis et dignissim. Quisque erat lectus, sodales a nisl in, tristique tempus odio. Fusce a lacus nisi. In eget lectus ac ante viverra elementum et sed metus. Duis ut viverra lectus. Suspendisse lacus tortor, commodo sit amet nunc quis, porttitor faucibus neque. Pellentesque tortor justo, finibus porta mollis et, tempor eu sapien. 
+              <br><br>
+              <img src="../../images/voltametro.svg" alt="Voltametro" width="300">
+              <br><br>
+
+              
+              
+            </p>
+            <br><br><br>
+            <h2>POÇO QUADRADO INFINITO</h2>
+            <br>
+            <p>
+              O problema do poço quadrado infinito, também conhecido como partícula em uma caixa, é um problema de fácil solução usado para demonstrar o comportamento de corpos descritos pela <strong style="color: blue;">equação de onda</strong>.
+              $$\color{blue}{-\frac{\hbar^2}{2m} \psi''(x) + V(x)\psi(x)=E\psi(x)}$$
+
+              O poço quadrado infinito consiste em um corpo constrito em uma região de potencial nulo entre duas barreiras de potencial infinito.
+              <br><br>
+              IMAGEM
+              <br><br>
+              Como a região entre as barreiras é nulo, ou seja, $V(x) = 0$, a equação de onda que descreve essa região é:
+              $${-\frac{\hbar^2}{2m} \psi''(x) + \cancelto{0}{V(x)\psi(x)}=E\psi(x)}$$
+              $$-\frac{\hbar^2}{2m} \psi''(x) =E\psi(x)$$
+              $$\psi''(x) =-\frac{2mE}{\hbar^2}\psi(x)$$
+              $$\psi''(x) =-k^2\psi(x)$$
+              $$\psi''(x) + k^2\psi(x) = 0$$
+              A solução dessa equação diferencial linear de segunda ordem é do formato:
+              $$\psi(x) = A \sin{(kx)} + B \cos{(kx)}$$
+              As condições de contorno:
+              $$\begin{align} \psi(0) = 0 && \psi(L)=(0) \end{align}$$
+
+              <details>
+                <summary>Detalhes da solução</summary>
+                <p>
+              $$\begin{gather} 
+                \psi(0) = 0 && \psi(L)=(0) \\
+                \psi(0) = A \sin{(k0)} + B \cos{(k0)} = 0 && \psi(L) = A \sin{(kL)} + B \cos{(kL)} = 0\\
+                \psi(0) = \cancelto{0}{A \sin{(k0)}} + B \cancelto{1}{\cos{(k0)}} = 0 && \vdots\\
+                \psi(0) =  B = 0 && \vdots \\
+                \boxed{B = 0} && \psi(L) = A \sin{(kL)} + \cancelto{0}{0 \cos{(kL)}} = 0\\
+                 && \psi(L) = A \sin{(kL)} = 0\\
+              \end{gather}$$
+              $A \ne 0$ pois caso contrário $\psi(x) = 0$ e não haveria partícula, logo:
+              $$\begin{gather} 
+              \sin(kL) = 0 \\
+              kL = n\pi \\
+              k = n \frac{\pi}{L} \\
+              \end{gather}$$
+              Normalizando a função de 0 a L:
+              $$\begin{gather} 
+              \langle \psi | \psi\rangle = \int_{-\infty}^{+\infty} \psi^* \psi \ dx = 1\\
+              \int_{0}^{L} A^2 \sin^2\left(\frac{n\pi x}{L}\right) \ dx = 1\\
+              A = \sqrt{\frac{2}{L}}
+              \end{gather}$$
+              </p>
+              </details>
+      
+              <br><br>
+              <p>
+              Aplicando as condições de contorno conseguimos a solução:
+              $$\begin{align} 
+              \psi_n(x) = \sqrt{\frac{2}{L}} \sin\frac{ \color{blue}{n} \color{black}{\pi x}}{L} && n = 1,2,3...
+              \end{align}$$
+              No qual $n$ é o número quântico, e está relacionado à energia através da equação:
+              $$E_n = n^2 \frac{\hbar^2\pi^2}{2mL^2} = n^2 E_1$$
+              <br><br>
+              <div id="calculator" style="width: 700px; height: 400px;"></div>
+              <script>
+                  var elt = document.getElementById('calculator');
+                  var calculator = Desmos.GraphingCalculator(elt);
+                  calculator.updateSettings({
+                    xAxisLabel: 'x',
+                    yAxisLabel: 'Ψ'
+                  });
+
+                  calculator.setMathBounds({
+                    left: -0.1,
+                    right: 1.1,
+                    bottom: -3,
+                    top: 3
+                  });
+                  calculator.setExpression({ id: 'n', latex: 'n=2', sliderBounds:  {min: 1, max: 10, step: 1}});
+                  calculator.setExpression({ id: 'L', latex: 'L=1', sliderBounds:  {min: 0.1, max: 2}});
+                  calculator.setExpression({ id: 'wave-equation', latex: 'f= \\sqrt{2/L} \\sin{{n \\pi x}/L} \\left\\{0<x<1\\right\\}', color: '#ff0000' });
+              </script> 
+            </p>
+            <br><br><br>
+
+            <h2>POÇO QUADRADO FINITO</h2>
+            <br>
+            <p>
+              Suspendisse at enim sed est luctus porttitor. Mauris semper condimentum turpis ut placerat. Praesent ut lobortis metus. Fusce interdum sit amet ex ut luctus. Nunc egestas laoreet libero, in semper orci ornare eget. Proin rutrum tortor dolor, sit amet feugiat ante rhoncus a. Quisque elementum augue ut purus placerat malesuada. In ultrices accumsan nibh at gravida. Cras sit amet nulla nibh. Donec lacinia semper lorem sit amet pulvinar. Sed a dictum libero. Sed sed ligula eleifend, molestie magna nec, laoreet mauris. 
+              <br><br>
+              Duis convallis gravida iaculis. Duis tristique tincidunt sodales. Ut facilisis ipsum quis lobortis mattis. Nullam ac pretium diam. Etiam ut sem vitae sapien blandit auctor. Etiam nec est ac ipsum tincidunt auctor nec eget nunc. Fusce nec quam est. Sed porttitor lacus ut maximus bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut eu risus ut velit malesuada fermentum. 
+            </p>
+            <br><br><br>
+            <hr>
+            <br><br>
+            <h2>FONTES</h2>
+            <br>
+            <a href="https://www.chemteam.info/Chem-History/Perrin-1895.html">J. Perrin. (1895).  NEW EXPERIMENTS ON THE KATHODE RAYS.  read before the Paris Academy of Sciences.</a>
+            <br><br>
+            <a href="https://web.lemoyne.edu/~giunta/thomson1897.html">J.J. Thomson. (1897). Cathode Rays. Philosophical Magazine and Journal of Science</a>
+            <br><br><br>
+            <hr>
+            <br>
+          </div>
+      </div>
+      <div class="menu-container">
+        <div class="menu">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
